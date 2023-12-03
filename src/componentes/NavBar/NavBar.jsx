@@ -2,7 +2,6 @@ import CartWidget from "../CartWidget/CartWidget"
 
 const NavBar = () => {
   return (
-    <>
     <nav>
         <a href="./index.html">
             <div style={{background:'url(./header_logo.png) center center/ cover',height:'100%',width:'21.4vw',maxWidth:'17rem'}}>
@@ -21,7 +20,6 @@ const NavBar = () => {
             <li><a href=""><CartWidget/></a></li>
         </ul>
     </nav>
-    </>
   )
 }
 
